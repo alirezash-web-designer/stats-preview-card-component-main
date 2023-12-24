@@ -1,0 +1,66 @@
+@font-face {
+    font-family:'inter' ;
+    font-family: 'LexendDeca';
+    src: url('LexendDeca-VariableFont_wght.ttf');
+    src: url('Inter-VariableFont_slnt,wght.ttf'); ,
+    url('Inter-VariableFont_slnt,wght.ttf') format('ttf'),
+    url('LexendDeca-VariableFont_wght.ttf') format('ttf')
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.continer{
+    display: grid;
+    grid-template-columns: 500px 540px;
+    grid-template-rows:446px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    width: 1040px;
+    margin: 20%;
+}
+.box-1{
+    margin: 40px;
+    padding: 30px;
+}
+.color-text{
+    color:hsl(277, 64%, 61%);
+}
+h1{
+    font-family:'inter';
+    font-weight: 700;
+    color: #ffff;
+}
+.p-text,.row-2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'inter';
+    font-weight: 400;
+}
+.p-text{
+    width: 380px;
+}
+.row-1{
+    font-family: 'LexendDeca';
+    font-weight: 600;
+    font-size: 24px;
+    color:#ffff;
+}
+.row-2{
+    font-family: 'LexendDeca';
+    font-weight: 100;
+    font-size: 10px;
+    color: #8a88a0;
+}
+.table{
+    border-spacing: 30px 5px;
+}
+tbody{
+    margin-left: -60px;
+    float: left; 
+}
+.img{
+    background-blend-mode: multiply;
+    background-image: url(image/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    border-radius:0 10px 10px 0px ;
+    background-color: #b25be8;
+}
